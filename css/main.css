@@ -1,0 +1,80 @@
+.wrap{
+    margin-left: 600px
+}
+.screen{
+    z-index: 9999;
+}
+.iphone6.gold .screen {
+    background: #2d2d2d;
+}
+#keypad {
+    margin: auto;
+    margin-top: 202px;
+    position: absolute;
+}
+.keys {
+    width: 90.7px;
+    height: 91.7px;
+    background-color: #f1f1f1;
+    border: 1px solid #979797;
+    float: left;
+    font-family: HelveticaNeue-Thin;
+    font-size: 34px;
+    color: #181817;
+    line-height: 91px;
+    cursor: pointer;
+
+}
+.keys:hover{
+    background-color: #cccccc;
+}
+.keys:active{
+    background-color: #4f5250
+}
+.operator {
+    background: #FA8C27;
+    color: #fefefe;
+}
+.operator:hover{
+    background-color: #bf7c17
+}
+.operator:active{
+    background-color: #ecbf84
+}
+.big {
+    width: 183.4px;
+
+
+    }
+
+.view {
+    position: absolute;
+    width: 375px;
+    height: 60;
+    margin-top: 135px;
+font-family: HelveticaNeue-Thin;
+    color: #e9e0e0;
+    font-size: 60px;
+    text-align: right;
+    overflow: hidden;
+}
+.decimal{
+    line-height: 110px;
+}
+.zero{
+    margin-right: 90px;
+}
+
+footer{
+    width: 550px;
+    margin: auto;
+    font-size: 22px;
+}
+
+li{
+    display: inline;
+
+}
+a{
+    text-decoration: none;
+}
